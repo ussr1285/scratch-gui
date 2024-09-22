@@ -41,8 +41,8 @@ const STAGE_DISPLAY_SIZES = keyMirror({
 const BLOCKS_DEFAULT_SCALE = 0.675;
 
 const STAGE_DISPLAY_SCALES = {};
-STAGE_DISPLAY_SCALES[STAGE_DISPLAY_SIZES.large] = 2; // large mode, wide browser (standard)
-STAGE_DISPLAY_SCALES[STAGE_DISPLAY_SIZES.largeConstrained] = 1.7; // large mode but narrow browser
+STAGE_DISPLAY_SCALES[STAGE_DISPLAY_SIZES.large] = 1.7; // large mode, wide browser (standard)
+STAGE_DISPLAY_SCALES[STAGE_DISPLAY_SIZES.largeConstrained] = 1.3; // large mode but narrow browser
 STAGE_DISPLAY_SCALES[STAGE_DISPLAY_SIZES.small] = 1; // small mode, regardless of browser size
 
 export default {
