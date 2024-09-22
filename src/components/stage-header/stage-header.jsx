@@ -114,13 +114,13 @@ const StageHeaderComponent = function (props) {
                 <div className={styles.stageSizeToggleGroup}>
                     <ToggleButtons
                         buttons={[
-                            // {
-                            //     handleClick: onSetStageSmall,
-                            //     icon: smallStageIcon,
-                            //     iconClassName: styles.stageButtonIcon,
-                            //     isSelected: stageSizeMode === STAGE_SIZE_MODES.small,
-                            //     title: props.intl.formatMessage(messages.smallStageSizeMessage)
-                            // },
+                            {
+                                handleClick: onSetStageSmall,
+                                icon: smallStageIcon,
+                                iconClassName: styles.stageButtonIcon,
+                                isSelected: stageSizeMode === STAGE_SIZE_MODES.small,
+                                title: props.intl.formatMessage(messages.smallStageSizeMessage)
+                            },
                             {
                                 handleClick: onSetStageLarge,
                                 icon: largeStageIcon,
